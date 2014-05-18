@@ -39,11 +39,19 @@ $ gem install nihongo
 Usage
 -----
 
+Stringに生えています。
+
 ```ruby
-'コンニチハ〜'.to_hiragana
-'いいお天気ですね'.to_katakana
-'Rubyﾀﾞｲ好ｷﾃﾞｽ！'.to_zenkaku
-'私はｖｅｒ２.１.２です~'.to_hankaku
+[1] 2.1.2(main)> require 'nihongo'
+=> true
+[2] 2.1.2(main)> 'コンニチハ〜'.to_hiragana
+=> "こんにちは〜"
+[3] 2.1.2(main)> 'いいお天気ですね'.to_katakana
+=> "イイオ天気デスネ"
+[4] 2.1.2(main)> 'Rubyﾀﾞｲ好ｷﾃﾞｽ！'.to_zenkaku
+=> "Ｒｕｂｙダイ好キデス！"
+[5] 2.1.2(main)> '私はｖｅｒ２.１.２です~'.to_hankaku
+=> "私はver2.1.2です~"
 ```
 
 Contributing
